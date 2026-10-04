@@ -1,0 +1,6 @@
+Moments the clip must show (tick only when seen):
+[x] 1. The Battle Bus (blue school bus under a big balloon) flies over while banana bots glide down on umbrellas; the player rides it and jumps.
+[x] 2. The player lands, smashes the glowing Loot Llama; loot (shotgun, shields) bursts out.
+[x] 3. The player fires the pump shotgun at banana bots: muzzle flash, tracers, blood sparks, bots eliminated with a blue beam and kill feed.
+[x] 4. The player builds a wall and a ramp instantly with the build tool; bots and skeleton arrows hit the planks.
+[x] 5. "VICTORY ROYALE" title with fireworks when the last bot falls.
