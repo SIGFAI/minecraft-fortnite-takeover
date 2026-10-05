@@ -1,8 +1,15 @@
 {
   "id": "sigf/minecraft-fortnite-takeover",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "Fortnite Takeover",
   "tagline": "Bring Fortnite into the game in the most visible and funny way. The change shows in the first 30 seconds of play.",
+  "how_to_play": [
+    "Be the last one standing: bots glide down from the Battle Bus onto the arena built around you.",
+    "Stay inside the purple storm circle once it starts closing, or you take damage.",
+    "Break open the glowing Loot Llama for a shotgun, shield potions, a build tool, golden apples and diamonds.",
+    "Right-click the shotgun to fire, a shield potion to drink it, and the build tool for a wall (sneak for a ramp).",
+    "The match starts by itself a few seconds after you join; a Loot Llama shows up nearby after about 30 seconds."
+  ],
   "kind": "mashup",
   "games": [
     {
@@ -30,10 +37,13 @@
       "strategy": "mrpack",
       "pack": {
         "src": "minecraft-fortnite-takeover.mrpack",
-        "url": "https://github.com/SIGFAI/minecraft-fortnite-takeover/releases/download/v1.0.0/minecraft-fortnite-takeover.mrpack",
-        "sha256": "986066daa30fc9b0ec3bc694a4ba7246d759853a0a1ff753d51fadebb33d83be",
-        "size": 264907
-      }
+        "url": "https://github.com/SIGFAI/minecraft-fortnite-takeover/releases/download/v1.0.1/minecraft-fortnite-takeover.mrpack",
+        "sha256": "5273112de50da5815a3cab69a22371fdda1448de9b253dabb58ab73383ea95c2",
+        "size": 265012
+      },
+      "jvm_args": [
+        "-Dsigf.player=1"
+      ]
     }
   ],
   "launch": [
@@ -45,9 +55,9 @@
   "files": [
     {
       "name": "minecraft-fortnite-takeover.mrpack",
-      "url": "https://github.com/SIGFAI/minecraft-fortnite-takeover/releases/download/v1.0.0/minecraft-fortnite-takeover.mrpack",
-      "sha256": "986066daa30fc9b0ec3bc694a4ba7246d759853a0a1ff753d51fadebb33d83be",
-      "size": 264907
+      "url": "https://github.com/SIGFAI/minecraft-fortnite-takeover/releases/download/v1.0.1/minecraft-fortnite-takeover.mrpack",
+      "sha256": "5273112de50da5815a3cab69a22371fdda1448de9b253dabb58ab73383ea95c2",
+      "size": 265012
     }
   ],
   "source": {
@@ -64,7 +74,7 @@
     "id": "minecraft",
     "status": "draft"
   },
-  "built_at": "2026-10-05T18:57:50.664Z",
+  "built_at": "2026-10-05T21:59:51.205Z",
   "server": {
     "game": "minecraft",
     "mc": "26.3",
@@ -72,8 +82,5 @@
     "ram_gb": 2,
     "max_players": 10,
     "pack": "minecraft-fortnite-takeover.mrpack"
-  },
-  "notes": [
-    "Copy the mod jar into your Fabric mods folder for Minecraft Java 26.3 (needs Fabric Loader and Fabric API). Start a world: the Battle Bus flies in and the match begins. Open the Loot Llama, grab the shotgun, shield potions and build tool, then right-click to shoot, drink or build."
-  ]
+  }
 }
