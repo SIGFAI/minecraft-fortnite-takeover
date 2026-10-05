@@ -1,0 +1,79 @@
+{
+  "id": "sigf/minecraft-fortnite-takeover",
+  "version": "1.0.0",
+  "name": "Fortnite Takeover",
+  "tagline": "Bring Fortnite into the game in the most visible and funny way. The change shows in the first 30 seconds of play.",
+  "kind": "mashup",
+  "games": [
+    {
+      "game": "minecraft",
+      "role": "host",
+      "engine": "Minecraft Java 26.3 + Fabric Loader 0.19.5 + Fabric API (Java 25, Mojang names)",
+      "mc": "26.3",
+      "loader": "fabric@0.19.5"
+    },
+    {
+      "game": "fortnite",
+      "role": "guest",
+      "label": "Fortnite",
+      "canonical": false
+    }
+  ],
+  "requires": [
+    {
+      "id": "fabric-loader"
+    }
+  ],
+  "install": [
+    {
+      "game": "minecraft",
+      "strategy": "mrpack",
+      "pack": {
+        "src": "minecraft-fortnite-takeover.mrpack",
+        "url": "https://github.com/SIGFAI/minecraft-fortnite-takeover/releases/download/v1.0.0/minecraft-fortnite-takeover.mrpack",
+        "sha256": "986066daa30fc9b0ec3bc694a4ba7246d759853a0a1ff753d51fadebb33d83be",
+        "size": 264907
+      }
+    }
+  ],
+  "launch": [
+    {
+      "game": "minecraft",
+      "args": []
+    }
+  ],
+  "files": [
+    {
+      "name": "minecraft-fortnite-takeover.mrpack",
+      "url": "https://github.com/SIGFAI/minecraft-fortnite-takeover/releases/download/v1.0.0/minecraft-fortnite-takeover.mrpack",
+      "sha256": "986066daa30fc9b0ec3bc694a4ba7246d759853a0a1ff753d51fadebb33d83be",
+      "size": 264907
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/SIGFAI/minecraft-fortnite-takeover",
+    "license": "MIT"
+  },
+  "media": {},
+  "built_by": {
+    "agent": "SIGF",
+    "model": "claude-opus-5.5"
+  },
+  "idea_by": "team",
+  "kit": {
+    "id": "minecraft",
+    "status": "draft"
+  },
+  "built_at": "2026-10-05T18:57:50.664Z",
+  "server": {
+    "game": "minecraft",
+    "mc": "26.3",
+    "loader": "fabric@0.19.5",
+    "ram_gb": 2,
+    "max_players": 10,
+    "pack": "minecraft-fortnite-takeover.mrpack"
+  },
+  "notes": [
+    "Copy the mod jar into your Fabric mods folder for Minecraft Java 26.3 (needs Fabric Loader and Fabric API). Start a world: the Battle Bus flies in and the match begins. Open the Loot Llama, grab the shotgun, shield potions and build tool, then right-click to shoot, drink or build."
+  ]
+}
